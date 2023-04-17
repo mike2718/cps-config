@@ -13,4 +13,5 @@ UV-5R.csv text eol=crlf
 #*.sh text eol=lf
 
 # Denote all files that are truly binary and should not be modified.
+*.png binary
 V168.dat binary
