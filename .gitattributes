@@ -8,6 +8,7 @@
 # Declare files that will always have CRLF line endings on checkout.
 UV-5R.dat text eol=crlf
 UV-5R.csv text eol=crlf
+UV-K5.cxf text eol=crlf
 
 # Declare files that will always have LF line endings on checkout.
 #*.sh text eol=lf
