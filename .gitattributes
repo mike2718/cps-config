@@ -6,8 +6,10 @@
 *.md text
 
 # Declare files that will always have CRLF line endings on checkout.
-UV-5R.dat text eol=crlf
-UV-5R.csv text eol=crlf
+UV-5R*.dat text eol=crlf
+*.csv text eol=crlf
+*.cmd text eol=crlf
+*.bat text eol=crlf
 UV-K5.cxf text eol=crlf
 
 # Declare files that will always have LF line endings on checkout.
@@ -15,4 +17,6 @@ UV-K5.cxf text eol=crlf
 
 # Denote all files that are truly binary and should not be modified.
 *.png binary
+*.jpg binary
+*.jpeg binary
 V168.dat binary
