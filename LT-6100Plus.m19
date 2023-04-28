@@ -9,9 +9,9 @@ APO 0 禁用
 scankind 1 TO
 step 4 25kHz
 VFO/MR 0 MR
-MR freq./MR CH 1 MR freq.
+MR freq./MR CH 0 MR CH
 Squelch 1 1
-TOT 3 3分钟
+TOT 7 7分钟
 Monitor 2 CTC/DCS与DTMF
 Exp Freq. 0
 Band 1 频段1
