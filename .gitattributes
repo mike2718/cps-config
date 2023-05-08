@@ -10,8 +10,7 @@ UV-5R*.dat text eol=crlf
 *.csv text eol=crlf
 *.cmd text eol=crlf
 *.bat text eol=crlf
-UV-K5.cxf text eol=crlf
-LT-6100Plus.m19 text eol=crlf
+UV-K5*.cxf text eol=crlf
 
 # Declare files that will always have LF line endings on checkout.
 #*.sh text eol=lf
@@ -20,5 +19,5 @@ LT-6100Plus.m19 text eol=crlf
 *.png binary
 *.jpg binary
 *.jpeg binary
-V168.dat binary
-VZ-D188.cps binary
+V168*.dat binary
+VZ-D188*.cps binary
