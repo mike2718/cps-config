@@ -13,7 +13,7 @@ UV-5R*.dat text eol=crlf
 UV-K5*.cxf text eol=crlf
 
 # Declare files that will always have LF line endings on checkout.
-#*.sh text eol=lf
+*.sh text eol=lf
 
 # Denote all files that are truly binary and should not be modified.
 *.png binary
@@ -21,3 +21,4 @@ UV-K5*.cxf text eol=crlf
 *.jpeg binary
 V168*.dat binary
 VZ-D188*.cps binary
+
