@@ -20,5 +20,6 @@ UV-K5*.cxf text eol=crlf
 *.jpg binary
 *.jpeg binary
 V168*.dat binary
+FT-4XR*.dat binary
 VZ-D188*.cps binary
 
