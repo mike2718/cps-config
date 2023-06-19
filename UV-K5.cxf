@@ -3,7 +3,7 @@
   <KeyPress>
     <Key1ShortPress>1</Key1ShortPress>
     <Key1LongPress>0</Key1LongPress>
-    <Key2ShortPress>3</Key2ShortPress>
+    <Key2ShortPress>2</Key2ShortPress>
     <Key2LongPress>0</Key2LongPress>
   </KeyPress>
   <Comm>
@@ -16,7 +16,7 @@
     <VoxLevel>5</VoxLevel>
     <FastCallChannel>0</FastCallChannel>
     <MicSensitiveLevel>2</MicSensitiveLevel>
-    <DoubleWaitFlag>1</DoubleWaitFlag>
+    <DoubleWaitFlag>2</DoubleWaitFlag>
     <SQLLevel>1</SQLLevel>
     <BandDiffRxTx>0</BandDiffRxTx>
     <KeyToneFlag>1</KeyToneFlag>
@@ -35,42 +35,26 @@
     <AccessPwd>/DGzTcf8uU4=</AccessPwd>
   </Comm>
   <DTMF>
-    <LocalNo>102</LocalNo>
+    <LocalNo>127</LocalNo>
     <KillNo>77777</KillNo>
     <ActiveNo>88888</ActiveNo>
     <SeparatorNo>*</SeparatorNo>
     <GroupNo>#</GroupNo>
     <ResetTimeLen>5</ResetTimeLen>
     <DecodeRsp>0</DecodeRsp>
-    <UpCode>123</UpCode>
-    <DownCode>456</DownCode>
+    <UpCode>1234</UpCode>
+    <DownCode>8191</DownCode>
     <SideTone>1</SideTone>
-    <BeforehandTime>300</BeforehandTime>
-    <FirstCodeTime>100</FirstCodeTime>
-    <StarCodeTime>100</StarCodeTime>
-    <CodeTime>100</CodeTime>
-    <CodeInterval>100</CodeInterval>
+    <BeforehandTime>50</BeforehandTime>
+    <FirstCodeTime>50</FirstCodeTime>
+    <StarCodeTime>50</StarCodeTime>
+    <CodeTime>50</CodeTime>
+    <CodeInterval>50</CodeInterval>
   </DTMF>
   <Contacts>
     <Contact>
       <DTMFName>CALL1</DTMFName>
-      <DTMFCode>101</DTMFCode>
-    </Contact>
-    <Contact>
-      <DTMFName>CALL2</DTMFName>
-      <DTMFCode>102</DTMFCode>
-    </Contact>
-    <Contact>
-      <DTMFName>CALL3</DTMFName>
-      <DTMFCode>103</DTMFCode>
-    </Contact>
-    <Contact>
-      <DTMFName>CALL4</DTMFName>
-      <DTMFCode>104</DTMFCode>
-    </Contact>
-    <Contact>
-      <DTMFName>CALL5</DTMFName>
-      <DTMFCode>105</DTMFCode>
+      <DTMFCode>220</DTMFCode>
     </Contact>
   </Contacts>
   <Channels_MR>
@@ -104,8 +88,8 @@
       <FreqReverseFlag>0</FreqReverseFlag>
       <EncryptFlag>0</EncryptFlag>
       <BusyNoTx>0</BusyNoTx>
-      <PTTIdFlag>0</PTTIdFlag>
-      <DTMFDecode>0</DTMFDecode>
+      <PTTIdFlag>2</PTTIdFlag>
+      <DTMFDecode>1</DTMFDecode>
       <AMChanFlag>0</AMChanFlag>
     </Channel>
     <Channel Name="ZP2" chanIndex="2">
@@ -121,8 +105,8 @@
       <FreqReverseFlag>0</FreqReverseFlag>
       <EncryptFlag>0</EncryptFlag>
       <BusyNoTx>0</BusyNoTx>
-      <PTTIdFlag>0</PTTIdFlag>
-      <DTMFDecode>0</DTMFDecode>
+      <PTTIdFlag>2</PTTIdFlag>
+      <DTMFDecode>1</DTMFDecode>
       <AMChanFlag>0</AMChanFlag>
     </Channel>
     <Channel Name="SSTV1" chanIndex="3">
@@ -193,7 +177,24 @@
       <DTMFDecode>0</DTMFDecode>
       <AMChanFlag>0</AMChanFlag>
     </Channel>
-    <Channel Name="VZP" chanIndex="7">
+    <Channel Name="ZP6" chanIndex="7">
+      <BandWidth>0</BandWidth>
+      <TxFreq>439.55</TxFreq>
+      <RxFreq>439.55</RxFreq>
+      <TxPowerLevel>2</TxPowerLevel>
+      <AnaTxCTCFlag>0</AnaTxCTCFlag>
+      <AnaRxCTCFlag>0</AnaRxCTCFlag>
+      <AnaTxCTCIndex>0</AnaTxCTCIndex>
+      <AnaRxCTCIndex>0</AnaRxCTCIndex>
+      <FreqStep>2</FreqStep>
+      <FreqReverseFlag>0</FreqReverseFlag>
+      <EncryptFlag>0</EncryptFlag>
+      <BusyNoTx>0</BusyNoTx>
+      <PTTIdFlag>2</PTTIdFlag>
+      <DTMFDecode>1</DTMFDecode>
+      <AMChanFlag>0</AMChanFlag>
+    </Channel>
+    <Channel Name="VZP" chanIndex="8">
       <BandWidth>0</BandWidth>
       <TxFreq>145</TxFreq>
       <RxFreq>145</RxFreq>
@@ -210,24 +211,7 @@
       <DTMFDecode>0</DTMFDecode>
       <AMChanFlag>0</AMChanFlag>
     </Channel>
-    <Channel Name="VSSTV1" chanIndex="8">
-      <BandWidth>0</BandWidth>
-      <TxFreq>145.8</TxFreq>
-      <RxFreq>145.8</RxFreq>
-      <TxPowerLevel>2</TxPowerLevel>
-      <AnaTxCTCFlag>0</AnaTxCTCFlag>
-      <AnaRxCTCFlag>0</AnaRxCTCFlag>
-      <AnaTxCTCIndex>0</AnaTxCTCIndex>
-      <AnaRxCTCIndex>0</AnaRxCTCIndex>
-      <FreqStep>2</FreqStep>
-      <FreqReverseFlag>0</FreqReverseFlag>
-      <EncryptFlag>0</EncryptFlag>
-      <BusyNoTx>0</BusyNoTx>
-      <PTTIdFlag>0</PTTIdFlag>
-      <DTMFDecode>0</DTMFDecode>
-      <AMChanFlag>0</AMChanFlag>
-    </Channel>
-    <Channel Name="VSSTV2" chanIndex="9">
+    <Channel Name="VSSTV1" chanIndex="9">
       <BandWidth>0</BandWidth>
       <TxFreq>145.5</TxFreq>
       <RxFreq>145.5</RxFreq>
@@ -244,7 +228,7 @@
       <DTMFDecode>0</DTMFDecode>
       <AMChanFlag>0</AMChanFlag>
     </Channel>
-    <Channel Name="VSSTV3" chanIndex="10">
+    <Channel Name="VSSTV2" chanIndex="10">
       <BandWidth>0</BandWidth>
       <TxFreq>145.6</TxFreq>
       <RxFreq>145.6</RxFreq>
@@ -261,7 +245,7 @@
       <DTMFDecode>0</DTMFDecode>
       <AMChanFlag>0</AMChanFlag>
     </Channel>
-    <Channel Name="VSSTV4" chanIndex="11">
+    <Channel Name="VSSTV3" chanIndex="11">
       <BandWidth>0</BandWidth>
       <TxFreq>145.55</TxFreq>
       <RxFreq>145.55</RxFreq>
@@ -316,8 +300,8 @@
     </Channel>
     <Channel Name="F2(108M-136M)A" chanIndex="2">
       <BandWidth>0</BandWidth>
-      <TxFreq>108</TxFreq>
-      <RxFreq>108</RxFreq>
+      <TxFreq>91</TxFreq>
+      <RxFreq>91</RxFreq>
       <TxPowerLevel>2</TxPowerLevel>
       <AnaTxCTCFlag>0</AnaTxCTCFlag>
       <AnaRxCTCFlag>0</AnaRxCTCFlag>
@@ -350,8 +334,8 @@
     </Channel>
     <Channel Name="F3(136M-174M)A" chanIndex="4">
       <BandWidth>0</BandWidth>
-      <TxFreq>136</TxFreq>
-      <RxFreq>136</RxFreq>
+      <TxFreq>144.025</TxFreq>
+      <RxFreq>144.025</RxFreq>
       <TxPowerLevel>2</TxPowerLevel>
       <AnaTxCTCFlag>0</AnaTxCTCFlag>
       <AnaRxCTCFlag>0</AnaRxCTCFlag>
@@ -384,8 +368,8 @@
     </Channel>
     <Channel Name="F4(174M-350M)A" chanIndex="6">
       <BandWidth>0</BandWidth>
-      <TxFreq>174</TxFreq>
-      <RxFreq>174</RxFreq>
+      <TxFreq>187</TxFreq>
+      <RxFreq>187</RxFreq>
       <TxPowerLevel>2</TxPowerLevel>
       <AnaTxCTCFlag>0</AnaTxCTCFlag>
       <AnaRxCTCFlag>0</AnaRxCTCFlag>
@@ -435,8 +419,8 @@
     </Channel>
     <Channel Name="F5(350M-400M)B" chanIndex="9">
       <BandWidth>0</BandWidth>
-      <TxFreq>350</TxFreq>
-      <RxFreq>350</RxFreq>
+      <TxFreq>440</TxFreq>
+      <RxFreq>440</RxFreq>
       <TxPowerLevel>2</TxPowerLevel>
       <AnaTxCTCFlag>0</AnaTxCTCFlag>
       <AnaRxCTCFlag>0</AnaRxCTCFlag>
@@ -452,8 +436,8 @@
     </Channel>
     <Channel Name="F6(400M-470M)A" chanIndex="10">
       <BandWidth>0</BandWidth>
-      <TxFreq>400</TxFreq>
-      <RxFreq>400</RxFreq>
+      <TxFreq>430</TxFreq>
+      <RxFreq>430</RxFreq>
       <TxPowerLevel>2</TxPowerLevel>
       <AnaTxCTCFlag>0</AnaTxCTCFlag>
       <AnaRxCTCFlag>0</AnaRxCTCFlag>
@@ -528,15 +512,13 @@
       <PriChannelScanEnable>False</PriChannelScanEnable>
       <PriChannelIndex1>255</PriChannelIndex1>
       <PriChannelIndex2>255</PriChannelIndex2>
-      <ChanIndexes>
-      </ChanIndexes>
+      <ChanIndexes>200|201|202|203|204|205</ChanIndexes>
     </ScanList>
     <ScanList Name="" listIndex="1">
       <PriChannelScanEnable>False</PriChannelScanEnable>
       <PriChannelIndex1>255</PriChannelIndex1>
       <PriChannelIndex2>255</PriChannelIndex2>
-      <ChanIndexes>
-      </ChanIndexes>
+      <ChanIndexes>200|201|202|203|204|205</ChanIndexes>
     </ScanList>
   </ScanLists>
 </DevicePara>
