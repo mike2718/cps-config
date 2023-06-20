@@ -16,7 +16,7 @@
     <VoxLevel>5</VoxLevel>
     <FastCallChannel>0</FastCallChannel>
     <MicSensitiveLevel>2</MicSensitiveLevel>
-    <DoubleWaitFlag>2</DoubleWaitFlag>
+    <DoubleWaitFlag>1</DoubleWaitFlag>
     <SQLLevel>1</SQLLevel>
     <BandDiffRxTx>0</BandDiffRxTx>
     <KeyToneFlag>1</KeyToneFlag>
@@ -41,7 +41,7 @@
     <SeparatorNo>*</SeparatorNo>
     <GroupNo>#</GroupNo>
     <ResetTimeLen>5</ResetTimeLen>
-    <DecodeRsp>0</DecodeRsp>
+    <DecodeRsp>3</DecodeRsp>
     <UpCode>1234</UpCode>
     <DownCode>8191</DownCode>
     <SideTone>1</SideTone>
@@ -89,13 +89,13 @@
       <EncryptFlag>0</EncryptFlag>
       <BusyNoTx>0</BusyNoTx>
       <PTTIdFlag>2</PTTIdFlag>
-      <DTMFDecode>1</DTMFDecode>
+      <DTMFDecode>0</DTMFDecode>
       <AMChanFlag>0</AMChanFlag>
     </Channel>
     <Channel Name="ZP2" chanIndex="2">
       <BandWidth>0</BandWidth>
-      <TxFreq>438.55</TxFreq>
-      <RxFreq>438.55</RxFreq>
+      <TxFreq>438.5</TxFreq>
+      <RxFreq>438.5</RxFreq>
       <TxPowerLevel>2</TxPowerLevel>
       <AnaTxCTCFlag>0</AnaTxCTCFlag>
       <AnaRxCTCFlag>0</AnaRxCTCFlag>
@@ -191,7 +191,7 @@
       <EncryptFlag>0</EncryptFlag>
       <BusyNoTx>0</BusyNoTx>
       <PTTIdFlag>2</PTTIdFlag>
-      <DTMFDecode>1</DTMFDecode>
+      <DTMFDecode>0</DTMFDecode>
       <AMChanFlag>0</AMChanFlag>
     </Channel>
     <Channel Name="VZP" chanIndex="8">
