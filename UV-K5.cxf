@@ -40,10 +40,10 @@
     <ActiveNo>88888</ActiveNo>
     <SeparatorNo>*</SeparatorNo>
     <GroupNo>#</GroupNo>
-    <ResetTimeLen>5</ResetTimeLen>
+    <ResetTimeLen>10</ResetTimeLen>
     <DecodeRsp>3</DecodeRsp>
     <UpCode>1234</UpCode>
-    <DownCode>8191</DownCode>
+    <DownCode>2833</DownCode>
     <SideTone>1</SideTone>
     <BeforehandTime>50</BeforehandTime>
     <FirstCodeTime>50</FirstCodeTime>
