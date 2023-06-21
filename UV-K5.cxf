@@ -16,7 +16,7 @@
     <VoxLevel>5</VoxLevel>
     <FastCallChannel>0</FastCallChannel>
     <MicSensitiveLevel>2</MicSensitiveLevel>
-    <DoubleWaitFlag>1</DoubleWaitFlag>
+    <DoubleWaitFlag>2</DoubleWaitFlag>
     <SQLLevel>1</SQLLevel>
     <BandDiffRxTx>0</BandDiffRxTx>
     <KeyToneFlag>1</KeyToneFlag>
@@ -88,7 +88,7 @@
       <FreqReverseFlag>0</FreqReverseFlag>
       <EncryptFlag>0</EncryptFlag>
       <BusyNoTx>0</BusyNoTx>
-      <PTTIdFlag>2</PTTIdFlag>
+      <PTTIdFlag>0</PTTIdFlag>
       <DTMFDecode>0</DTMFDecode>
       <AMChanFlag>0</AMChanFlag>
     </Channel>
@@ -105,7 +105,7 @@
       <FreqReverseFlag>0</FreqReverseFlag>
       <EncryptFlag>0</EncryptFlag>
       <BusyNoTx>0</BusyNoTx>
-      <PTTIdFlag>2</PTTIdFlag>
+      <PTTIdFlag>0</PTTIdFlag>
       <DTMFDecode>1</DTMFDecode>
       <AMChanFlag>0</AMChanFlag>
     </Channel>
@@ -190,7 +190,7 @@
       <FreqReverseFlag>0</FreqReverseFlag>
       <EncryptFlag>0</EncryptFlag>
       <BusyNoTx>0</BusyNoTx>
-      <PTTIdFlag>2</PTTIdFlag>
+      <PTTIdFlag>0</PTTIdFlag>
       <DTMFDecode>0</DTMFDecode>
       <AMChanFlag>0</AMChanFlag>
     </Channel>
