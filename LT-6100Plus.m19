@@ -33,7 +33,7 @@ First Digit 50
 Pretime 100
 *&#Delay 50
 ACK Decode 1
-DTMF Side 1
+DTMF Side 0
 Display PTT ID 1
 PTT ID 1 ∑¢…‰Ω· ¯
 BOT 12345
@@ -48,9 +48,9 @@ Call6
 Call7 
 Call8 
 Call9 
-Group 0 A
+Group 5 #
 Private 127
-Auto Reset 10
+Auto Reset 13
 Auto ACK 1
 DTMF Beep 1
 Strip 1
