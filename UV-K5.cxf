@@ -16,7 +16,7 @@
     <VoxLevel>5</VoxLevel>
     <FastCallChannel>0</FastCallChannel>
     <MicSensitiveLevel>2</MicSensitiveLevel>
-    <DoubleWaitFlag>1</DoubleWaitFlag>
+    <DoubleWaitFlag>2</DoubleWaitFlag>
     <SQLLevel>1</SQLLevel>
     <BandDiffRxTx>0</BandDiffRxTx>
     <KeyToneFlag>1</KeyToneFlag>
@@ -36,24 +36,24 @@
   </Comm>
   <DTMF>
     <LocalNo>127</LocalNo>
-    <KillNo>77777</KillNo>
-    <ActiveNo>88888</ActiveNo>
+    <KillNo>42346</KillNo>
+    <ActiveNo>32345</ActiveNo>
     <SeparatorNo>*</SeparatorNo>
     <GroupNo>#</GroupNo>
-    <ResetTimeLen>13</ResetTimeLen>
+    <ResetTimeLen>10</ResetTimeLen>
     <DecodeRsp>3</DecodeRsp>
     <UpCode>1234</UpCode>
     <DownCode>2833</DownCode>
-    <SideTone>0</SideTone>
-    <BeforehandTime>50</BeforehandTime>
-    <FirstCodeTime>50</FirstCodeTime>
+    <SideTone>1</SideTone>
+    <BeforehandTime>100</BeforehandTime>
+    <FirstCodeTime>100</FirstCodeTime>
     <StarCodeTime>50</StarCodeTime>
     <CodeTime>50</CodeTime>
     <CodeInterval>50</CodeInterval>
   </DTMF>
   <Contacts>
     <Contact>
-      <DTMFName>CALL1</DTMFName>
+      <DTMFName>BG7WDQ</DTMFName>
       <DTMFCode>220</DTMFCode>
     </Contact>
   </Contacts>
@@ -105,7 +105,7 @@
       <FreqReverseFlag>0</FreqReverseFlag>
       <EncryptFlag>0</EncryptFlag>
       <BusyNoTx>0</BusyNoTx>
-      <PTTIdFlag>0</PTTIdFlag>
+      <PTTIdFlag>2</PTTIdFlag>
       <DTMFDecode>1</DTMFDecode>
       <AMChanFlag>0</AMChanFlag>
     </Channel>
