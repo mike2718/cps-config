@@ -45,8 +45,8 @@
     <UpCode>1234</UpCode>
     <DownCode>2833</DownCode>
     <SideTone>1</SideTone>
-    <BeforehandTime>100</BeforehandTime>
-    <FirstCodeTime>100</FirstCodeTime>
+    <BeforehandTime>50</BeforehandTime>
+    <FirstCodeTime>50</FirstCodeTime>
     <StarCodeTime>50</StarCodeTime>
     <CodeTime>50</CodeTime>
     <CodeInterval>50</CodeInterval>
