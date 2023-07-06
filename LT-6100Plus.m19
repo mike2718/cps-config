@@ -16,14 +16,14 @@ Monitor 2 CTC/DCS”ÎDTMF
 Exp Freq. 0
 Band 1 ∆µ∂Œ1
 Beep 1
-Key Lock 1
+Key Lock 0
 Save 1
 EMG 1
 FM Enable 1
 ALIAS Enable 1
 OPMSG Enable 1
 OPEN MSG NAM BG7XTQ
-VoxSQL 2 3
+VoxSQL 0 1
 VoxDelay 2 3s
 VoxRX 1
 
