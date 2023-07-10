@@ -42,8 +42,8 @@
     <GroupNo>#</GroupNo>
     <ResetTimeLen>10</ResetTimeLen>
     <DecodeRsp>3</DecodeRsp>
-    <UpCode>11</UpCode>
-    <DownCode>33</DownCode>
+    <UpCode>12</UpCode>
+    <DownCode>28</DownCode>
     <SideTone>1</SideTone>
     <BeforehandTime>50</BeforehandTime>
     <FirstCodeTime>50</FirstCodeTime>
