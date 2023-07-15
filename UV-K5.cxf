@@ -14,13 +14,13 @@
     <TailToneFlag>0</TailToneFlag>
     <VFOFlag>1</VFOFlag>
     <VoxLevel>0</VoxLevel>
-    <FastCallChannel>-1</FastCallChannel>
+    <FastCallChannel>0</FastCallChannel>
     <MicSensitiveLevel>2</MicSensitiveLevel>
     <DoubleWaitFlag>1</DoubleWaitFlag>
     <SQLLevel>3</SQLLevel>
     <BandDiffRxTx>0</BandDiffRxTx>
     <KeyToneFlag>0</KeyToneFlag>
-    <Language>0</Language>
+    <Language>1</Language>
     <BeepFlag>0</BeepFlag>
     <AutoKeyLock>1</AutoKeyLock>
     <ScanRestore>1</ScanRestore>
@@ -254,9 +254,26 @@
       <DTMFDecode>0</DTMFDecode>
       <AMChanFlag>0</AMChanFlag>
     </Channel>
+    <Channel Name="APRS" chanIndex="11">
+      <BandWidth>0</BandWidth>
+      <TxFreq>144.64</TxFreq>
+      <RxFreq>144.64</RxFreq>
+      <TxPowerLevel>2</TxPowerLevel>
+      <AnaTxCTCFlag>0</AnaTxCTCFlag>
+      <AnaRxCTCFlag>0</AnaRxCTCFlag>
+      <AnaTxCTCIndex>0</AnaTxCTCIndex>
+      <AnaRxCTCIndex>0</AnaRxCTCIndex>
+      <FreqStep>0</FreqStep>
+      <FreqReverseFlag>0</FreqReverseFlag>
+      <EncryptFlag>0</EncryptFlag>
+      <BusyNoTx>0</BusyNoTx>
+      <PTTIdFlag>0</PTTIdFlag>
+      <DTMFDecode>0</DTMFDecode>
+      <AMChanFlag>0</AMChanFlag>
+    </Channel>
   </Channels_MR>
   <Channels_VFO>
-    <Channel Name="" chanIndex="0">
+    <Channel Name="F1(50M-76M)A" chanIndex="0">
       <BandWidth>0</BandWidth>
       <TxFreq>50</TxFreq>
       <RxFreq>50</RxFreq>
@@ -273,7 +290,7 @@
       <DTMFDecode>0</DTMFDecode>
       <AMChanFlag>0</AMChanFlag>
     </Channel>
-    <Channel Name="" chanIndex="1">
+    <Channel Name="F1(50M-76M)B" chanIndex="1">
       <BandWidth>0</BandWidth>
       <TxFreq>50</TxFreq>
       <RxFreq>50</RxFreq>
@@ -290,7 +307,7 @@
       <DTMFDecode>0</DTMFDecode>
       <AMChanFlag>0</AMChanFlag>
     </Channel>
-    <Channel Name="" chanIndex="2">
+    <Channel Name="F2(108M-136M)A" chanIndex="2">
       <BandWidth>0</BandWidth>
       <TxFreq>108</TxFreq>
       <RxFreq>108</RxFreq>
@@ -307,7 +324,7 @@
       <DTMFDecode>0</DTMFDecode>
       <AMChanFlag>0</AMChanFlag>
     </Channel>
-    <Channel Name="" chanIndex="3">
+    <Channel Name="F2(108M-136M)B" chanIndex="3">
       <BandWidth>0</BandWidth>
       <TxFreq>108</TxFreq>
       <RxFreq>108</RxFreq>
@@ -324,7 +341,24 @@
       <DTMFDecode>0</DTMFDecode>
       <AMChanFlag>0</AMChanFlag>
     </Channel>
-    <Channel Name="" chanIndex="4">
+    <Channel Name="F3(136M-174M)A" chanIndex="4">
+      <BandWidth>0</BandWidth>
+      <TxFreq>144.625</TxFreq>
+      <RxFreq>144.625</RxFreq>
+      <TxPowerLevel>2</TxPowerLevel>
+      <AnaTxCTCFlag>0</AnaTxCTCFlag>
+      <AnaRxCTCFlag>0</AnaRxCTCFlag>
+      <AnaTxCTCIndex>0</AnaTxCTCIndex>
+      <AnaRxCTCIndex>0</AnaRxCTCIndex>
+      <FreqStep>5</FreqStep>
+      <FreqReverseFlag>0</FreqReverseFlag>
+      <EncryptFlag>0</EncryptFlag>
+      <BusyNoTx>0</BusyNoTx>
+      <PTTIdFlag>0</PTTIdFlag>
+      <DTMFDecode>0</DTMFDecode>
+      <AMChanFlag>0</AMChanFlag>
+    </Channel>
+    <Channel Name="F3(136M-174M)B" chanIndex="5">
       <BandWidth>0</BandWidth>
       <TxFreq>136</TxFreq>
       <RxFreq>136</RxFreq>
@@ -341,24 +375,7 @@
       <DTMFDecode>0</DTMFDecode>
       <AMChanFlag>0</AMChanFlag>
     </Channel>
-    <Channel Name="" chanIndex="5">
-      <BandWidth>0</BandWidth>
-      <TxFreq>136</TxFreq>
-      <RxFreq>136</RxFreq>
-      <TxPowerLevel>2</TxPowerLevel>
-      <AnaTxCTCFlag>0</AnaTxCTCFlag>
-      <AnaRxCTCFlag>0</AnaRxCTCFlag>
-      <AnaTxCTCIndex>0</AnaTxCTCIndex>
-      <AnaRxCTCIndex>0</AnaRxCTCIndex>
-      <FreqStep>5</FreqStep>
-      <FreqReverseFlag>0</FreqReverseFlag>
-      <EncryptFlag>0</EncryptFlag>
-      <BusyNoTx>0</BusyNoTx>
-      <PTTIdFlag>0</PTTIdFlag>
-      <DTMFDecode>0</DTMFDecode>
-      <AMChanFlag>0</AMChanFlag>
-    </Channel>
-    <Channel Name="" chanIndex="6">
+    <Channel Name="F4(174M-350M)A" chanIndex="6">
       <BandWidth>0</BandWidth>
       <TxFreq>174</TxFreq>
       <RxFreq>174</RxFreq>
@@ -375,7 +392,7 @@
       <DTMFDecode>0</DTMFDecode>
       <AMChanFlag>0</AMChanFlag>
     </Channel>
-    <Channel Name="" chanIndex="7">
+    <Channel Name="F4(174M-350M)B" chanIndex="7">
       <BandWidth>0</BandWidth>
       <TxFreq>174</TxFreq>
       <RxFreq>174</RxFreq>
@@ -392,7 +409,7 @@
       <DTMFDecode>0</DTMFDecode>
       <AMChanFlag>0</AMChanFlag>
     </Channel>
-    <Channel Name="" chanIndex="8">
+    <Channel Name="F5(350M-400M)A" chanIndex="8">
       <BandWidth>0</BandWidth>
       <TxFreq>350</TxFreq>
       <RxFreq>350</RxFreq>
@@ -409,7 +426,7 @@
       <DTMFDecode>0</DTMFDecode>
       <AMChanFlag>0</AMChanFlag>
     </Channel>
-    <Channel Name="" chanIndex="9">
+    <Channel Name="F5(350M-400M)B" chanIndex="9">
       <BandWidth>0</BandWidth>
       <TxFreq>350</TxFreq>
       <RxFreq>350</RxFreq>
@@ -426,7 +443,7 @@
       <DTMFDecode>0</DTMFDecode>
       <AMChanFlag>0</AMChanFlag>
     </Channel>
-    <Channel Name="" chanIndex="10">
+    <Channel Name="F6(400M-470M)A" chanIndex="10">
       <BandWidth>0</BandWidth>
       <TxFreq>400</TxFreq>
       <RxFreq>400</RxFreq>
@@ -443,7 +460,7 @@
       <DTMFDecode>0</DTMFDecode>
       <AMChanFlag>0</AMChanFlag>
     </Channel>
-    <Channel Name="" chanIndex="11">
+    <Channel Name="F6(400M-470M)B" chanIndex="11">
       <BandWidth>0</BandWidth>
       <TxFreq>400</TxFreq>
       <RxFreq>400</RxFreq>
@@ -460,7 +477,7 @@
       <DTMFDecode>0</DTMFDecode>
       <AMChanFlag>0</AMChanFlag>
     </Channel>
-    <Channel Name="" chanIndex="12">
+    <Channel Name="F7(470M-600M)A" chanIndex="12">
       <BandWidth>0</BandWidth>
       <TxFreq>470</TxFreq>
       <RxFreq>470</RxFreq>
@@ -477,7 +494,7 @@
       <DTMFDecode>0</DTMFDecode>
       <AMChanFlag>0</AMChanFlag>
     </Channel>
-    <Channel Name="" chanIndex="13">
+    <Channel Name="F7(470M-600M)B" chanIndex="13">
       <BandWidth>0</BandWidth>
       <TxFreq>470</TxFreq>
       <RxFreq>470</RxFreq>
@@ -510,20 +527,18 @@
     <FMFreq freqIndex="11">101.4</FMFreq>
   </FMFreqs>
   <ScanLists>
-    <DefaultListIndex>255</DefaultListIndex>
+    <DefaultListIndex>0</DefaultListIndex>
     <ScanList Name="" listIndex="0">
       <PriChannelScanEnable>False</PriChannelScanEnable>
-      <PriChannelIndex1>-1</PriChannelIndex1>
-      <PriChannelIndex2>-1</PriChannelIndex2>
-      <ChanIndexes>
-      </ChanIndexes>
+      <PriChannelIndex1>255</PriChannelIndex1>
+      <PriChannelIndex2>255</PriChannelIndex2>
+      <ChanIndexes>202</ChanIndexes>
     </ScanList>
     <ScanList Name="" listIndex="1">
       <PriChannelScanEnable>False</PriChannelScanEnable>
-      <PriChannelIndex1>-1</PriChannelIndex1>
-      <PriChannelIndex2>-1</PriChannelIndex2>
-      <ChanIndexes>
-      </ChanIndexes>
+      <PriChannelIndex1>255</PriChannelIndex1>
+      <PriChannelIndex2>255</PriChannelIndex2>
+      <ChanIndexes>202</ChanIndexes>
     </ScanList>
   </ScanLists>
 </DevicePara>
