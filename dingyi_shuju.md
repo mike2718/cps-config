@@ -11,5 +11,5 @@
 
 ### 接FT232BL芯片板子
 
-![K头写频线接口定义](/images/dingyi.png)
+![K头写频线接口定义](/images/dingyi_shuju.png)
 
