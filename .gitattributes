@@ -19,7 +19,5 @@ LT-6100Plus*.m19 text eol=crlf
 *.jpg binary
 *.jpeg binary
 *.img binary
-V168*.dat binary
-FT-4XR*.dat binary
-UV-83*.uvdat binary
+*.uvdat binary
 
