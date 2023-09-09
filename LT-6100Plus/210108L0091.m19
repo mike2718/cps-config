@@ -10,7 +10,7 @@ scankind 1 TO
 step 4 25kHz
 VFO/MR 0 MR
 MR freq./MR CH 1 MR freq.
-Squelch 1 1
+Squelch 3 3
 TOT 0 禁用
 Monitor 2 CTC/DCS与DTMF
 Exp Freq. 0
@@ -22,8 +22,8 @@ EMG 1
 FM Enable 1
 ALIAS Enable 1
 OPMSG Enable 1
-OPEN MSG NAM BG7XTQ
-VoxSQL 7 8
+OPEN MSG NAM LINTON
+VoxSQL 5 6
 VoxDelay 2 3s
 VoxRX 1
 
@@ -37,9 +37,9 @@ DTMF Side 1
 Display PTT ID 1
 PTT ID 1 发射结束
 BOT 12345
-EOT 28
-Call0 220
-Call1 102
+EOT 30
+Call0 
+Call1 
 Call2 
 Call3 
 Call4 
@@ -75,7 +75,7 @@ CH006 | 439.12500 | 禁用 | 439.12500 | 禁用 | 高功率 | 宽带 | 启用 | 禁用 | 禁用
 CH007 | 439.22500 | 禁用 | 439.22500 | 禁用 | 高功率 | 宽带 | 启用 | 禁用 | 禁用 |  | 禁用 | 禁用 | 禁用 | 0 | 0 | 禁用 | 禁用 | 
 CH008 | 439.32500 | 禁用 | 439.32500 | 禁用 | 高功率 | 宽带 | 启用 | 禁用 | 禁用 |  | 禁用 | 禁用 | 禁用 | 0 | 0 | 禁用 | 禁用 | 
 CH009 | 439.42500 | 禁用 | 439.42500 | 禁用 | 高功率 | 宽带 | 启用 | 禁用 | 禁用 |  | 禁用 | 禁用 | 禁用 | 0 | 0 | 禁用 | 禁用 | 
-CH010 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+CH010 | 439.55000 | 禁用 | 439.55000 | 禁用 | 高功率 | 宽带 | 启用 | 禁用 | 禁用 |  | 禁用 | 禁用 | 禁用 | 0 | 0 | 禁用 | 禁用 | 
 CH011 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
 CH012 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
 CH013 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
