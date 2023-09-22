@@ -1,2 +1,2 @@
 #!/bin/bash
-tree -v -C -P '*.img|*.dat|*.uvdat|*.m19' --noreport | sed 's/\.[^.]*$//'
+tree -v -C -P '*.img|*.dat|*.uvdat|*.m19' --noreport VX-* UV-* BF-* | sed 's/\.[^.]*$//'
