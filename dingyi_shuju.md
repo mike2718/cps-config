@@ -1,15 +1,18 @@
 # K头写频线接口定义
 
-## 已测试可用机型
+## 接FT232芯片板子
 
-- 宝锋UV-5R
-- 灵通LT-6100Plus
-- 泉盛UV-K5
-- 艾迪欧UV83
+![K头写频线接口定义](/images/k_tou.png)
 
-## 定义
+### 八重洲VX-3R用
 
-### 接FT232BL芯片板子
+![3.5mm头写频线接口定义](/images/35_tou.png)
 
-![K头写频线接口定义](/images/dingyi_shuju.png)
+### 八重洲VX-6R用
+
+![3.5mm头（带防水螺纹）写频线接口定义](/images/35_fangshui_tou.png)
+
+### 八重洲FT-4XR用
+
+![2.5mm头写频线接口定义](/images/25_tou.png)
 
