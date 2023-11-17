@@ -6,7 +6,7 @@
 *.md text
 
 # Declare files that will always have CRLF line endings on checkout.
-#*.csv text eol=crlf
+*.csv text eol=crlf
 *.cmd text eol=crlf
 *.bat text eol=crlf
 *.m19 text eol=crlf
