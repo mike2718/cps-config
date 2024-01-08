@@ -20,5 +20,6 @@
 *.img binary
 *.uvdat binary
 *.raw binary
+*.bin binary
 
 
