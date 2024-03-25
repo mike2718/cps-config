@@ -1,5 +1,5 @@
 #!/bin/bash
-tree -v -P '*.img|*.dat|*.uvdat|*.m19|*.V388Dat' --noreport | sed 's/\.[^.]*$//'
+tree -v -P '*.img|*.dat|*.uvdat|*.m19|*.V388Dat|*.cps' --noreport | sed 's/\.[^.]*$//'
 
 #rm sn.md
 #echo '# 设备序列号列表' > sn.md
