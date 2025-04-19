@@ -1,26 +1,20 @@
-# Set the default behavior, in case people don't have core.autocrlf set.
-* text=auto
 
-# Explicitly declare text files you want to always be normalized and converted
-# to native line endings on checkout.
-*.md text
+*.md text working-tree-encoding=UTF-8 eol=crlf
+*.csv       text eol=crlf
+.gitattributes text eol=crlf
+.gitignore  text eol=crlf
 
-# Declare files that will always have CRLF line endings on checkout.
-*.csv text eol=crlf
-*.cmd text eol=crlf
-*.bat text eol=crlf
-*.m19 text eol=crlf
+# 图像文件 - 二进制
+*.png       binary
+*.xcf       binary
 
-# Declare files that will always have LF line endings on checkout.
-*.sh text eol=lf
+# 对讲机写频相关 - 二进制文件
+*.img       binary
+*.bin       binary
+*.dat       binary
+*.cps       binary
+*.raw       binary
+*.m19       binary
 
-# Denote all files that are truly binary and should not be modified.
-*.png binary
-*.jpg binary
-*.img binary
-*.dat binary
-*.uvdat binary
-*.raw binary
-*.bin binary
-
-
+# 默认处理未知类型为文本，使用自动检测
+*           text=auto
