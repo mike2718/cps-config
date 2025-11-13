@@ -1,3 +1,2 @@
 #!/bin/bash
-git pull
-git archive --format=zip --prefix=cps-config/ --output=/d/cps-config.zip main
+git archive --format=zip --prefix=cps-config/ --output=/c/Users/Saori/backup/cps-config.zip main

@@ -1,4 +1,4 @@
-
+*.sh  text eol=lf
 *.md text working-tree-encoding=UTF-8 eol=crlf
 *.csv       text eol=crlf
 .gitattributes text eol=crlf
